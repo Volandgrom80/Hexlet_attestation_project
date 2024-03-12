@@ -313,11 +313,8 @@
   
   .container-4 {
     display: flex;
-    flex-direction: column;
-  }
-  .form {
-    display: flex;
-  }
+}
+  
   
   .email {
     width: 653px;
@@ -370,6 +367,8 @@
   }
   
   .btn-form {
+    display: flex;
+
     width: 327px;
     height: 94px;
     flex-shrink: 0;
@@ -379,10 +378,20 @@
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
   }
+
+  .form {
+    margin-top: 150px;
+  }
+
+  .img-3 {
+    margin-top: 250px;
+    
+   
+  }
   
   .item-2 {
-    display: flex;
-    justify-content: center;
+    margin-left: 500px;
+    margin-bottom: 20px;
   }
   
   .mrb {
